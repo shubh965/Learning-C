@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int l, b;
+    float l, b;
     printf("Enter the length of rectangle: ");
-    scanf("%d", &l);
+    scanf("%f", &l);
     printf("Enter the breadth of rectangle: ");
-    scanf("%d", &b);
-    printf("\nThe perimeter of rectangle is: %d \nThe area of the rectangle is: %d", 2*(l+b), l*b);
+    scanf("%f", &b);
+    printf("\nThe perimeter of rectangle is: %f \nThe area of the rectangle is: %f", 2*(l+b), l*b);
     return 0;
 }
