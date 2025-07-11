@@ -6,6 +6,6 @@ int main() {
     scanf("%d", &l);
     printf("Enter the breadth of rectangle: ");
     scanf("%d", &b);
-    printf("\nThe perimeter of rectangle is: %d \nThe area of the rectangle is: %d", l+b, l*b);
+    printf("\nThe perimeter of rectangle is: %d \nThe area of the rectangle is: %d", 2*(l+b), l*b);
     return 0;
 }
