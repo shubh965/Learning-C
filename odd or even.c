@@ -5,12 +5,7 @@ int main() {
     printf("Enter the number: ");
     scanf("%d", &a);
     
-    if(a%2==0) {
-        printf("The number is even.");
-    }
-    else {
-        printf("The number is odd.");
-    }
+    a%2==0 ? printf("The number is even.") : printf("The number is odd.");
 
     return 0;
 }
