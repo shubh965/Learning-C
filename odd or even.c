@@ -5,7 +5,6 @@ int main() {
     printf("Enter the number: ");
     scanf("%d", &a);
     
-    a%2==0 ? printf("The number is even.") : printf("The number is odd.");
-
+    a >=0 ? (a%2==0 ? printf("The number is positive and even.") : printf("The number is positive and odd.")) : printf("The number is negative.");
     return 0;
 }
