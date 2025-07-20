@@ -12,15 +12,15 @@ int main() {
     scanf(" %c", &c);
     
     if (c=='+'){
-        printf("The sum of the two numbers is: %f", a+b);
+        printf("The sum of the two numbers is: %f\n", a+b);
     } else if (c=='-'){
-        printf("The subtraction of the two numbers is: %f", a-b);
+        printf("The subtraction of the two numbers is: %f\n", a-b);
     } else if (c=='*'){
-        printf("The multiplication of the numbers is: %f", a*b);
+        printf("The multiplication of the numbers is: %f\n", a*b);
     } else if (c=='/'){
-        b!=0 ? printf("The division of the two numbers is: %f", a/b) : printf("!!! You cannot divide by 0 !!!");
+        b!=0 ? printf("The division of the two numbers is: %f\n", a/b) : printf("You cannot divide by 0.\n");
     } else {
-        printf("!!! Enter a valid operator !!!");
+        printf("Please enter a valid operator.\n");
     }
 
     return 0;
