@@ -5,7 +5,7 @@ int main() {
     printf("Enter ur age: ");
     scanf("%d", &age);
     
-    age<18 ? printf("You are a minor.") : printf("You are an adult.")
+    age<18 ? printf("You are a minor.") : printf("You are an adult.");
 
     return 0;
 }
