@@ -8,13 +8,15 @@ int main() {
     printf("Enter the number till which u need the sum: ");
     scanf("%d", &n);
     
-    do {
+    while (i<=n){
         j+=i;
         i++;
-    } while (i<=n);
-    printf("The sum of the first %d numbers is: %d\n", n, j);
+    }
     
-    //printf("The sum of the first %d numbers is: %d\n", n, (n*(n+1))/2);
+    printf("The sum of the first %d numbers is: ", n);
+    
+    printf("%d\n", j);
+    //printf("%d\n", (n*(n+1))/2);
     
     return 0;
 }
