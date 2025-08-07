@@ -17,6 +17,7 @@ int main() {
             break;
         case 3:
             a<0 ? printf("Enter a positive number.\n") : (a%2==0 ? printf("The number is even.\n") : printf("The number is odd.\n"));
+            break;
         default:
             printf("Please enter a valid operation.");
     }
